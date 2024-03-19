@@ -31,7 +31,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.432098, 0, -0.521427)
 environment = SubResource("Environment_7xc1h")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 0.567528, 0.823354, 0, -0.823354, 0.567528, 1.40271, 16.1458, 25.1513)
+transform = Transform3D(0.806956, 0.208264, -0.552673, 0.25728, 0.718357, 0.646352, 0.531629, -0.663769, 0.5261, -33.2768, 28.1522, 31.5765)
 
 [node name="Player" parent="." instance=ExtResource("1_icqh8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.48203, 0)
@@ -48,5 +48,47 @@ shape = SubResource("ConcavePolygonShape3D_jjn0k")
 [node name="Hill" parent="." instance=ExtResource("2_jvru0")]
 transform = Transform3D(-0.438732, 0, 0.898618, 0, 1, 0, -0.898618, 0, -0.438732, -32.6352, -7.14946, 34.169)
 
+[node name="Hill2" parent="." instance=ExtResource("2_jvru0")]
+transform = Transform3D(-0.495261, 0, -0.868744, 0, 1, 0, 0.868744, 0, -0.495261, -35.0373, -5.88294, 13.5376)
+
+[node name="Hill3" parent="." instance=ExtResource("2_jvru0")]
+transform = Transform3D(0.891276, 0, 0.453462, 0, 1, 0, -0.453462, 0, 0.891276, -40.9581, -2.51111, -4.72065)
+
+[node name="Hill4" parent="." instance=ExtResource("2_jvru0")]
+transform = Transform3D(-0.569193, 0, -0.822204, 0, 1, 0, 0.822204, 0, -0.569193, -35.8669, -2.51111, -17.1998)
+
+[node name="Hill5" parent="." instance=ExtResource("2_jvru0")]
+transform = Transform3D(-0.564506, 0, 0.825429, 0, 1, 0, -0.825429, 0, -0.564506, -33.6818, -2.51111, -32.7664)
+
+[node name="Hill6" parent="." instance=ExtResource("2_jvru0")]
+transform = Transform3D(-0.311755, 0, -0.950163, 0, 1, 0, 0.950163, 0, -0.311755, -12.7052, -2.51111, -44.7848)
+
+[node name="Hill7" parent="." instance=ExtResource("2_jvru0")]
+transform = Transform3D(-0.870777, 0, 0.491679, 0, 1, 0, -0.491679, 0, -0.870777, -1.21903, -2.51111, -38.3922)
+
+[node name="Hill8" parent="." instance=ExtResource("2_jvru0")]
+transform = Transform3D(0.464286, 0, -0.885686, 0, 1, 0, 0.885686, 0, 0.464286, 14.448, -2.51111, -45.7231)
+
+[node name="Hill9" parent="." instance=ExtResource("2_jvru0")]
+transform = Transform3D(-0.86474, 0, -0.50222, 0, 1, 0, 0.50222, 0, -0.86474, 32.3584, -2.51111, -41.6476)
+
+[node name="Hill10" parent="." instance=ExtResource("2_jvru0")]
+transform = Transform3D(-0.86474, 0, -0.50222, 0, 1, 0, 0.50222, 0, -0.86474, 37.5547, -2.51111, -25.0673)
+
+[node name="Hill11" parent="." instance=ExtResource("2_jvru0")]
+transform = Transform3D(0.558325, 0, -0.829623, 0, 1, 0, 0.829623, 0, 0.558325, 37.5547, -2.51111, -14.1862)
+
+[node name="Hill12" parent="." instance=ExtResource("2_jvru0")]
+transform = Transform3D(0.96335, 0, 0.268247, 0, 1, 0, -0.268247, 0, 0.96335, 37.5547, -2.51111, 1.0558)
+
+[node name="Hill13" parent="." instance=ExtResource("2_jvru0")]
+transform = Transform3D(-0.117277, 0, -0.993099, 0, 1, 0, 0.993099, 0, -0.117277, 43.8935, -3.12832, 21.884)
+
+[node name="Hill14" parent="." instance=ExtResource("2_jvru0")]
+transform = Transform3D(-0.380602, 0, 0.924739, 0, 1, 0, -0.924739, 0, -0.380602, 30.8157, -3.12832, 38.7767)
+
+[node name="Hill15" parent="." instance=ExtResource("2_jvru0")]
+transform = Transform3D(-0.747926, 0, 0.663783, 0, 1, 0, -0.663783, 0, -0.747926, 11.3572, -1.96324, 42.4256)
+
 [node name="House" parent="." instance=ExtResource("3_qrbre")]
-transform = Transform3D(6.52079, 0, 0, 0, 4.74521, 0, 0, 0, 7.54182, 28.8169, 2.75445, 0.336711)
+transform = Transform3D(6.52079, 0, 0, 0, 4.74521, 0, 0, 0, 7.54182, 11.6277, 2.75445, 0.336711)
