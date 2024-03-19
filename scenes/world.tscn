@@ -46,7 +46,7 @@ mesh = SubResource("BoxMesh_geb0f")
 shape = SubResource("ConcavePolygonShape3D_jjn0k")
 
 [node name="Hill" parent="." instance=ExtResource("2_jvru0")]
-transform = Transform3D(-0.438732, 0, 0.898618, 0, 1, 0, -0.898618, 0, -0.438732, -32.6352, -7.14946, 34.169)
+transform = Transform3D(0.923438, 0, -0.383747, 0, 1, 0, 0.383747, 0, 0.923438, -31.6309, -1.21335, 29.9687)
 
 [node name="Hill2" parent="." instance=ExtResource("2_jvru0")]
 transform = Transform3D(-0.495261, 0, -0.868744, 0, 1, 0, 0.868744, 0, -0.495261, -35.0373, -5.88294, 13.5376)
@@ -90,5 +90,17 @@ transform = Transform3D(-0.380602, 0, 0.924739, 0, 1, 0, -0.924739, 0, -0.380602
 [node name="Hill15" parent="." instance=ExtResource("2_jvru0")]
 transform = Transform3D(-0.747926, 0, 0.663783, 0, 1, 0, -0.663783, 0, -0.747926, 11.3572, -1.96324, 42.4256)
 
+[node name="Hill16" parent="." instance=ExtResource("2_jvru0")]
+transform = Transform3D(-0.113498, 0, 0.993539, 0, 1, 0, -0.993539, 0, -0.113498, -12.5522, -1.96324, 42.4256)
+
 [node name="House" parent="." instance=ExtResource("3_qrbre")]
-transform = Transform3D(6.52079, 0, 0, 0, 4.74521, 0, 0, 0, 7.54182, 11.6277, 2.75445, 0.336711)
+transform = Transform3D(6.52079, 0, 0, 0, 4.74521, 0, 0, 0, 7.54182, 20.6041, 2.75445, 9.92974)
+
+[node name="House2" parent="." instance=ExtResource("3_qrbre")]
+transform = Transform3D(0.329338, 0, 7.53219, 0, 4.74521, 0, -6.51247, 0, 0.380905, 10.8361, 2.75445, -25.9653)
+
+[node name="House3" parent="." instance=ExtResource("3_qrbre")]
+transform = Transform3D(0.329338, 0, 7.53219, 0, 4.74521, 0, -6.51247, 0, 0.380905, -3.81855, 2.75445, -25.9653)
+
+[node name="House4" parent="." instance=ExtResource("3_qrbre")]
+transform = Transform3D(-6.51664, 0, 0.269125, 0, 4.74521, 0, -0.232691, 0, -7.53701, -18.134, 2.75445, -14.002)
