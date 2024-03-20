@@ -1,8 +1,9 @@
-[gd_scene load_steps=10 format=3 uid="uid://dt2mdt2kg2by7"]
+[gd_scene load_steps=11 format=3 uid="uid://dt2mdt2kg2by7"]
 
 [ext_resource type="PackedScene" uid="uid://cxe6l7ei8l3tr" path="res://scenes/player.tscn" id="1_icqh8"]
 [ext_resource type="PackedScene" uid="uid://p5j57mkth4ua" path="res://scenes/hill.tscn" id="2_jvru0"]
 [ext_resource type="PackedScene" uid="uid://ca1xuuxefoo0g" path="res://scenes/house.tscn" id="3_qrbre"]
+[ext_resource type="PackedScene" uid="uid://63pbislc877q" path="res://scenes/building.tscn" id="4_j0i4u"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_da173"]
 sky_top_color = Color(0.176739, 0.591169, 0.729141, 1)
@@ -34,7 +35,7 @@ environment = SubResource("Environment_7xc1h")
 transform = Transform3D(0.806956, 0.208264, -0.552673, 0.25728, 0.718357, 0.646352, 0.531629, -0.663769, 0.5261, -33.2768, 28.1522, 31.5765)
 
 [node name="Player" parent="." instance=ExtResource("1_icqh8")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.48203, 0)
+transform = Transform3D(0.856798, 0, 0, 0, 0.856798, 0, 0, 0, 0.856798, 0, 1.48203, 0)
 
 [node name="Ground" type="MeshInstance3D" parent="."]
 transform = Transform3D(77.9438, 0, 0, 0, 0.640869, 0, 0, 0, 74.8377, 0, 0, 0)
@@ -49,7 +50,7 @@ shape = SubResource("ConcavePolygonShape3D_jjn0k")
 transform = Transform3D(0.923438, 0, -0.383747, 0, 1, 0, 0.383747, 0, 0.923438, -31.6309, -1.21335, 29.9687)
 
 [node name="Hill2" parent="." instance=ExtResource("2_jvru0")]
-transform = Transform3D(-0.495261, 0, -0.868744, 0, 1, 0, 0.868744, 0, -0.495261, -35.0373, -5.88294, 13.5376)
+transform = Transform3D(-0.495261, 0, -0.868744, 0, 1, 0, 0.868744, 0, -0.495261, -35.0373, -2.8894, 13.5376)
 
 [node name="Hill3" parent="." instance=ExtResource("2_jvru0")]
 transform = Transform3D(0.891276, 0, 0.453462, 0, 1, 0, -0.453462, 0, 0.891276, -40.9581, -2.51111, -4.72065)
@@ -104,3 +105,6 @@ transform = Transform3D(0.329338, 0, 7.53219, 0, 4.74521, 0, -6.51247, 0, 0.3809
 
 [node name="House4" parent="." instance=ExtResource("3_qrbre")]
 transform = Transform3D(-6.51664, 0, 0.269125, 0, 4.74521, 0, -0.232691, 0, -7.53701, -18.134, 2.75445, -14.002)
+
+[node name="Building" parent="." instance=ExtResource("4_j0i4u")]
+transform = Transform3D(2.8846, 0, 0, 0, 2.8846, 0, 0, 0, 2.8846, -22.7217, -0.109704, -6.09582)
