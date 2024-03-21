@@ -1,5 +1,6 @@
-[gd_scene load_steps=13 format=3 uid="uid://dt2mdt2kg2by7"]
+[gd_scene load_steps=14 format=3 uid="uid://dt2mdt2kg2by7"]
 
+[ext_resource type="Script" path="res://scripts/world.gd" id="1_5fbpf"]
 [ext_resource type="PackedScene" uid="uid://cxe6l7ei8l3tr" path="res://scenes/player.tscn" id="1_icqh8"]
 [ext_resource type="PackedScene" uid="uid://p5j57mkth4ua" path="res://scenes/hill.tscn" id="2_jvru0"]
 [ext_resource type="PackedScene" uid="uid://ca1xuuxefoo0g" path="res://scenes/house.tscn" id="3_qrbre"]
@@ -29,6 +30,7 @@ data = PackedVector3Array(-0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0
 
 [node name="World" type="Node3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.432098, 0, -0.521427)
+script = ExtResource("1_5fbpf")
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_7xc1h")
