@@ -114,4 +114,7 @@ transform = Transform3D(2.8846, 0, 0, 0, 2.8846, 0, 0, 0, 2.8846, -22.7217, -0.1
 [node name="Collect" parent="." instance=ExtResource("5_neebr")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.346575, 0, 0.899915, -7.53929)
 
+[node name="Collect2" parent="." instance=ExtResource("5_neebr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.346575, -16.4717, 0.899915, -11.8394)
+
 [node name="UI" parent="." instance=ExtResource("6_53kmm")]
