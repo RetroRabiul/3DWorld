@@ -1,15 +1,26 @@
 extends Control
 
 var my_score = 0
-# Called when the node enters the scene tree for the first time.
+
+var time_left = 60
+
 func _ready():
 	Global_signal.change_score.connect(_change_score)
 	$ScoreLabel.text = "Score: "+str(my_score)
-
+	$TimeLabel.text = "Time: " + str(time_left)
+	$Timer.start()
+	
+	
 func _change_score(amount):
 	my_score += amount
 	$ScoreLabel.text = "Score: "+str(my_score)
+	
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
+func _on_timer_timeout():
+	time_left -= 1
+	$TimeLabel.text = "Time: " + str(time_left)
+	if time_left == 0:
+		$Timer.stop()
+		Global_signal.emit_signal("game_over")
+	
+	
